@@ -4,6 +4,7 @@ language: ruby
 
 before_install:
 - rvm use 2.3.3 --install --binary --fuzzy
+- gem update --system
 
 script:
 - echo "hello ruby"
