@@ -2,11 +2,7 @@ os: linux
 dist: trusty
 language: ruby
 
-before_install:
-- rvm use 2.3.3 --install --binary --fuzzy
-- gem -v
-- gem update --system
-- gem -v
+cache: bundler
 
 script:
 - echo "hello ruby"
